@@ -155,7 +155,7 @@ p {
 @media screen and (max-width: 479px) {
 /* start of phone styles */
   h1 {
-    font-size: 1rem;
+    font-size: 0.5rem;
     text-align: left;
   }
 
