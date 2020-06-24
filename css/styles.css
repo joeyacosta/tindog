@@ -154,9 +154,13 @@ p {
 
 @media screen and (max-width: 479px) {
 /* start of phone styles */
-  h1 {
-    font-size: 0.5rem;
-    text-align: left;
+  .container-fluid {
+    padding: 0 10%;
+  }
+  .iphonedog {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
   }
 
 }
