@@ -151,3 +151,12 @@ p {
     transform: rotate(0);
   }
 }
+
+@media screen and (max-width: 479px) {
+/* start of phone styles */
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+}
