@@ -152,7 +152,7 @@ p {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 375px) {
 /* start of phone styles */
   .container-fluid {
     padding: 0 10%;
