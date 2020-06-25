@@ -163,6 +163,7 @@ p {
     margin-bottom: 0;
   }
   button .top-black-download {
+    margin: 0;
     margin-right: 13px;
     margin-left: 0px;
   }
