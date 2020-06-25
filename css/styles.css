@@ -156,13 +156,13 @@ p {
   .navbar {
     padding: 0;
   }
-  h1.bigheading {
+  h1.big-heading {
     font-size: 2.5rem;
     text-align: center;
     padding: 25px 0;
     margin-bottom: 0;
   }
-  button.btn.btn-dark.btn-lg.download-button {
+  .button.btn.btn-dark.btn-lg.download-button {
     margin-right: 13px;
     margin-left: 0px;
   }
@@ -190,9 +190,6 @@ p {
   }
   h3.big-heading {
     font-size: 2.5rem;
-  }
-  #title {
-    text-align: center;
   }
   .iphonedog {
     position: static;
