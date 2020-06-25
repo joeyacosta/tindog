@@ -151,16 +151,3 @@ p {
     transform: rotate(0);
   }
 }
-
-@media screen and (max-width: 375px) {
-/* start of phone styles */
-  .container-fluid {
-    padding: 0 10%;
-  }
-  .iphonedog {
-    position: static;
-    transform: rotate(0);
-    text-align: center;
-  }
-
-}
