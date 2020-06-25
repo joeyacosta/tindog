@@ -151,3 +151,16 @@ p {
     transform: rotate(0);
   }
 }
+
+@media (max-width: 375px) {
+  #title {
+    text-align: center;
+  }
+  .iphonedog {
+    position: static;
+    transform: rotate(0);
+  }
+  #title .container-fluid {
+    padding: 3% 5% 7%;
+  }
+}
