@@ -153,6 +153,44 @@ p {
 }
 
 @media (max-width: 375px) {
+  .navbar {
+    padding: 0;
+  }
+  h1.bigheading {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 0;
+  }
+  button.btn.btn-dark.btn-lg.download-button {
+    margin-right: 13px;
+    margin-left: 0px;
+  }
+  img.iphonedog {
+    display: block;
+    margin: 11% auto;
+  }
+  h2.testimonial-text {
+    font-size: 1.5rem;
+  }
+  section#press.colored-section {
+    padding-bottom: 0;
+  }
+  section#pricing.white-section {
+    padding: 7%;
+  }
+  h2.section-heading {
+    font-size: 2.5rem;
+  }
+  section#pricing.white-section p{
+    margin: 10%;
+  }
+  div.pricing-column.col-lg-4.col-md-6 {
+    margin: 5% 0;
+  }
+  h3.big-heading {
+    font-size: 2.5rem;
+  }
   #title {
     text-align: center;
   }
