@@ -162,34 +162,39 @@ p {
     padding: 25px 0;
     margin-bottom: 0;
   }
-  body .top-black-download {
-    margin: 0;
+  #title .top-black-download {
     margin-right: 13px;
     margin-left: 0px;
   }
-  img .iphonedog {
+  #title .top-white-download {
+    margin-right: 0;
+  }
+  #title .iphonedog {
     display: block;
     margin: 11% auto;
   }
-  h2 .testimonial-text {
+  #testimonials .testimonial-text {
     font-size: 1.5rem;
   }
-  section #press .colored-section {
+  #press .mashable {
     padding-bottom: 0;
   }
-  section #pricing .white-section {
+  section, #press {
+    padding-bottom: 0;
+  }
+  #pricing, .white-section {
     padding: 7%;
   }
-  h2 .section-heading {
+  h2, .section-heading {
     font-size: 2.5rem;
   }
-  section #pricing .white-section p{
-    margin: 10%;
+  .white-section, p{
+    margin: 10% 0;
   }
-  div .pricing-column.col-lg-4.col-md-6 {
+  #pricing, .card {
     margin: 5% 0;
   }
-  h3 .big-heading {
+  h3, .big-heading {
     font-size: 2.5rem;
   }
   .iphonedog {
@@ -198,5 +203,12 @@ p {
   }
   #title .container-fluid {
     padding: 3% 5% 7%;
+  }
+  #footer {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #cta > .container-fluid {
+    padding: 7% 15% 12%;
   }
 }
